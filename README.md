@@ -25,7 +25,7 @@ The dataset is taken from Hugging Face contains financial transaction records. I
 - isFraud	Binary flag: 1 if transaction is fraudulent
 - isFlaggedFraud: 1 if transaction exceeds a flagged threshold
 
-This dataset contains 21000000 rows and 11 columns.
+This dataset contains 21M rows and 11 columns.
 
 ### License
 Apache 2.0 — freely usable with attribution
