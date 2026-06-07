@@ -1,2 +1,37 @@
-# 7006SCN_KK_17171906
-Machine Learning and Big Data assignment using Pyspark for Credit Card Fraud Detection 
+# Big Data Fraud Detection using PySpark  
+
+## Project Overview
+This project was done as part of a Big Data Analytics assignment. The main goal is to work with a financial transaction dataset and use PySpark to explore, clean, and prepare the data for fraud detection. Since the dataset is large, Spark is used to handle it efficiently.
+
+## Repository Structure
+
+This repository contains 2 notebooks:
+
+- Task1.ipynb → Spark initialisation, Loading the dataset, dataset schema and basic analysis
+- Task2.ipynb → Data cleaning, No of Partitions and building a PySpark pipeline
+
+## Dataset Details
+The dataset is taken from Hugging Face contains financial transaction records. It includes details like:
+
+- step:	Unit of time 
+- type:	Transaction type
+- amount:	Transaction value in simulated currency
+- nameOrig:	Anonymized ID of sender
+- oldbalanceOrg:	Sender’s balance before transaction
+- newbalanceOrig:	Sender’s balance after transaction
+- nameDest: Anonymized ID of recipient
+- oldbalanceDest:	Recipient’s balance before transaction 
+- newbalanceDest:	Recipient’s balance after transaction 
+- isFraud	Binary flag: 1 if transaction is fraudulent
+- isFlaggedFraud: 1 if transaction exceeds a flagged threshold
+
+This dataset contains 21000000 rows and 11 columns.
+
+### License
+Apache 2.0 — freely usable with attribution
+
+## Tools Used
+- PySpark
+- Python
+- Jupyter Notebook
+- GitHub
