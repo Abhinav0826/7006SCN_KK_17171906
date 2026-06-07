@@ -1,7 +1,7 @@
 # Big Data Fraud Detection using PySpark  
 
 ## Project Overview
-This project was done as part of a Big Data Analytics assignment. The main goal is to work with a big credit card financial transaction dataset to build an ML model to detect Credit Card Financial Fraud using PySpark in Python.
+This project was done as part of a Big Data Analytics assignment. The main goal is to work with a large scale credit card financial transaction dataset using distributed computing to build an ML model to detect Credit Card Financial Fraud using PySpark in Python.
 
 ## Repository Structure
 
